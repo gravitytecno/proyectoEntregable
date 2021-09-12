@@ -1,0 +1,115 @@
+$fondo:rgb(215, 219, 223);
+$aside:#ffffff;
+$bg-oscuro:#222020;
+
+body{
+    background-color: $fondo;
+    font-family: $fontMain;
+}
+
+//Pagina Principal
+
+.asideCategorias{
+    background-color: $aside;
+    padding: 2vh;
+    padding-bottom: 30vh;
+        
+}
+.botones li a{
+    
+    color:black;
+    pointer-events: painted;
+    text-decoration: none;
+}
+
+
+.destacados{
+background-color:$bg-oscuro;
+padding: 5vh;
+transition: background-color 0.5s linear;
+} 
+
+.destacados:hover{
+    background-color:blue;
+}
+
+.destacados__titulo--blanco {
+                    color:$aside;
+                    font-size: 3em;
+                    
+}
+
+.destacados__cards{
+     
+        display: flex;
+        justify-content: center;
+}
+
+.btn-whatsapp {
+    display:block;
+    width:70px;
+    height:70px;
+    color:black;
+    position: fixed;
+    right:20px;
+    bottom:20px;
+    border-radius:50%;
+    line-height:80px;
+    text-align:center;
+    z-index:999;
+}
+
+.corousel__titulo--big{
+    font-size:3em ;
+}
+
+.asideDerecho{
+    background-color: $aside;
+}
+
+.asideDerecho_imagenes--tamaño {
+    width: 145px;
+}
+
+//pagina ayuda
+
+.modal{
+    text-align: center;
+    padding: 10vhS;
+}
+
+.preguntas{
+    display: flex;
+    flex-wrap: wrap;
+}
+.reclamos{
+    margin-left: 5vh;
+}
+// pagina Productos
+
+.descricionProductos_imagenes--medio{
+    width: 400px;
+    margin: 3vh;
+
+}
+
+.descricionProductos_imagenes--small{
+    width: 100px;
+    margin: 1vh;
+}
+
+.descricionProductos_imagenes--small2{
+    width: 50px;
+    margin: 1vh;
+}
+.descricionProductos_texto{
+  background-color: rgb(168, 190, 219);
+    margin: 0.2vh;
+}
+
+//pagina carrito
+
+.formularioEnvio{
+    display: flex;
+    justify-content: center;
+}

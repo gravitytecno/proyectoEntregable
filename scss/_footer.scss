@@ -1,0 +1,23 @@
+$marginSmall:3vh;
+
+footer{
+background-color:$bg-oscuro;
+color:$aside;
+} 
+   footer a{
+        color:$aside;
+     }
+ 
+.footer_col--margin{
+    margin: 3vh;
+}       
+
+.quienesSomos{
+    text-align: center;
+}
+.datosContactos{
+    text-align: center;
+}
+.footer_col1--margin{
+    text-align: center
+}

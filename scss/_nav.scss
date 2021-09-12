@@ -1,0 +1,23 @@
+$img:200px;
+
+nav img{
+    width: $img;
+} 
+
+nav{
+    ul{ 
+        li{
+            .navbar_link--beige{
+               color:beige; 
+            }
+          }
+
+       }
+}
+
+.carrito {
+    width: 30px;
+}
+
+
+
